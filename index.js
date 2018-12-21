@@ -83,8 +83,8 @@
                     id(funcName.name),
                     classBody([
                         methodDefinition(
-                            'varructor',
-                            id('varructor'),
+                            'constructor',
+                            id('constructor'),
                             functionExpression(
                                 null,
                                 [id('props')],
@@ -98,7 +98,7 @@
                             false
                         ),
                         methodDefinition(
-                            'varructor',
+                            'constructor',
                             id('render'),
                             functionExpression(
                                 null,
