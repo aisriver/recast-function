@@ -50,7 +50,7 @@
                 code = code.substring(0, index) + '"r_e_s_p_a_c_e'
                     + code.substring(index, endIndex) + 'r_e_s_p_a_c_e"'
                     + code.substring(endIndex, code.length);
-                normalToReactClass(code, isDownLoad);
+                return normalToReactClass(code, isDownLoad);
             } else {
                 console.warn(error);
             }
