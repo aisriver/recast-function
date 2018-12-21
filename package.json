@@ -1,0 +1,31 @@
+{
+  "name": "recast-function",
+  "version": "1.0.0",
+  "description": "Use recast to translater function.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aisriver/recast-function.git"
+  },
+  "keywords": [
+    "recast",
+    "translater",
+    "recast-function",
+    "function",
+    "declaratrion",
+    "react class"
+  ],
+  "author": "Jared",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aisriver/recast-function/issues"
+  },
+  "homepage": "https://github.com/aisriver/recast-function#readme",
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "recast": "^0.16.1"
+  }
+}

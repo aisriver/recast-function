@@ -1,0 +1,22 @@
+# Dependency directory
+/node_modules
+/npm-debug.log*
+/yarn-error.log
+/yarn.lock
+/package-lock.json
+
+# Mac
+*.DS_Store
+
+# Optional npm cache directory
+.npm
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+.env
+
+# Intellij IDE config folder
+.idea
