@@ -57,7 +57,7 @@
                 code = code.substring(0, index) + '`r_e_s_p_a_c_e'
                     + code.substring(index, endIndex) + 'r_e_s_p_a_c_e`'
                     + code.substring(endIndex, code.length);
-                return this.transCode(code);
+                return normalToReactClass(code, isDownLoad);
             } else {
                 console.log('code', code);
                 console.log('error code', code.substring(0, error.index));

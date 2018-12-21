@@ -53,7 +53,7 @@ class Page extends React.Component {
     }
 }
 
-注意：源函数类型如果不匹配，则可能得不到想要的结果。
+注意：源函数类型如果不匹配，则可能得不到想要的结果。另外加上isDownLoad为true的传参可以直接下载文件。
 </pre>
 
 ### github
