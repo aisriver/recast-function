@@ -42,9 +42,9 @@
             var index = error.index;
             // 标签不能直接return
             if (error.description === 'Unexpected token <') {
-                const afterCode = code.substring(index, code.length);
-                const matchB = afterCode.match(/<\w+?[ \>]/);
-                const hStr = matchB[0].substring(1, matchB[0].length - 1);
+                var afterCode = code.substring(index, code.length);
+                var matchB = afterCode.match(/<\w+?[ \>]/);
+                var hStr = matchB[0].substring(1, matchB[0].length - 1);
                 function findFromLast(str, flag, num) {
                     num = typeof num == "undefined" ? 0 : num;
                     var pattern = new RegExp(
@@ -52,8 +52,8 @@
                     var target = str.match(pattern);
                     return target ? target[0] : target;
                 }
-                const afterStr = findFromLast(afterCode, "</" + hStr + ">");
-                const endIndex = index + afterCode.length - afterStr.length + 3 + hStr.length;
+                var afterStr = findFromLast(afterCode, "</" + hStr + ">");
+                var endIndex = index + afterCode.length - afterStr.length + 3 + hStr.length;
                 code = code.substring(0, index) + '`r_e_s_p_a_c_e'
                     + code.substring(index, endIndex) + 'r_e_s_p_a_c_e`'
                     + code.substring(endIndex, code.length);
