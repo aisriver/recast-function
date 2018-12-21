@@ -123,7 +123,7 @@
                     var funcName = node.id;
                     var params = node.params;
                     var body = node.body;
-                    var rep = variableDeclaration("var", [
+                    var rep = variableDeclaration("const", [
                         variableDeclarator(funcName, arrowFunctionExpression(params, body))
                     ]);
                     path.replace(rep)
