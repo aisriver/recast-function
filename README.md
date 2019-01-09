@@ -53,7 +53,12 @@ class Page extends React.Component {
     }
 }
 
-注意：源函数类型如果不匹配，则可能得不到想要的结果。另外加上isDownLoad为true的传参可以直接下载文件。
+注意：源函数类型如果不匹配，则可能得不到想要的结果。
+另外加上isDownLoad为true的传参可以直接下载文件。
+
+解决重复劳动力是一件很有意义的事情，
+有什么好的想法，欢迎一起成长交流
+WeChat：mrliaojun
 </pre>
 
 ### github
